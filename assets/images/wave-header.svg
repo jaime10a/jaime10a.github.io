@@ -9,14 +9,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1294px"
-   height="216px"
-   viewBox="0 0 1294 216"
+   height="140px"
+   viewBox="0 0 1294 140"
    version="1.1"
-   id="svg16"
-   sodipodi:docname="wave-footer.svg"
+   id="svg27"
+   sodipodi:docname="wave-header.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
-     id="metadata20">
+     id="metadata31">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -37,46 +37,45 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1600"
      inkscape:window-height="876"
-     id="namedview18"
+     id="namedview29"
      showgrid="false"
-     inkscape:object-paths="true"
-     inkscape:zoom="0.64863659"
-     inkscape:cx="558.79156"
-     inkscape:cy="-142.50479"
+     inkscape:zoom="0.45865533"
+     inkscape:cx="1360.4392"
+     inkscape:cy="168.22771"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg16" />
+     inkscape:current-layer="svg27" />
   <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
   <title
-     id="title2">wave_footer</title>
+     id="title2">wave_header</title>
   <desc
      id="desc4">Created with Sketch.</desc>
   <defs
-     id="defs11">
+     id="defs19">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient857">
+       id="linearGradient860">
       <stop
          style="stop-color:#4c4fff;stop-opacity:0.90840009"
          offset="0"
-         id="stop853" />
+         id="stop856" />
       <stop
          style="stop-color:#000000;stop-opacity:0.86203971"
          offset="1"
-         id="stop855" />
+         id="stop858" />
     </linearGradient>
     
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient857"
-       id="radialGradient859"
-       cx="559.19574"
-       cy="280.09982"
-       fx="559.19574"
-       fy="280.09982"
-       r="647"
-       gradientTransform="matrix(1.9087385e-4,1.2081313,-3.4085194,0,1623.6143,-587.68585)"
+       xlink:href="#linearGradient860"
+       id="radialGradient862"
+       cx="646"
+       cy="67.5"
+       fx="646"
+       fy="67.5"
+       r="651"
+       gradientTransform="matrix(2.5693269,-0.0011844,2.6346095e-4,0.57153545,-1013.803,29.686475)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g
@@ -85,16 +84,28 @@
      stroke-width="1"
      fill="none"
      fill-rule="evenodd"
-     style="mix-blend-mode:normal;fill:#00579f;fill-opacity:0.93264735">
+     style="fill:url(#radialGradient862);fill-opacity:1"
+     inkscape:transform-center-x="0.35238028">
     <g
-       id="wave_footer"
-       fill="url(#radialGradient-1)"
-       style="fill:#00579f;fill-opacity:0.93264735">
-      <path
-         d="M 0,0 H 1294 V 216 C 1078.4769,206.0499 862.97599,201.07485 647.49731,201.07485 432.01862,201.07485 216.18619,206.0499 0,216 Z"
-         id="Image-Hero-Copy"
-         transform="matrix(1,0,0,-1,0,216)"
-         style="fill:url(#radialGradient859);fill-opacity:1" />
+       id="wave_header"
+       style="fill:url(#radialGradient862);fill-opacity:1">
+      <g
+         id="Group-4-Copy"
+         transform="translate(-5)"
+         style="fill:url(#radialGradient862);fill-opacity:1">
+        <path
+           d="m 0,0 1300,0 c -0.1563,26.656778 -0.1563,69.704391 0,129.14284 C 990.95958,139.99848 1034.9666,114.44902 701.50349,123.93182 368.04041,133.41462 390.60599,144.31725 0,121.3428 1,88.126407 1,47.678805 0,0 Z"
+           id="Wave"
+           fill="#C4C4C4"
+           opacity="0.15"
+           style="fill:url(#radialGradient862);fill-opacity:1" />
+        <path
+           d="M 1,0 H 925.70103 1302 c 0,60.119516 0,98.476269 0,115.07026 -80.3948,-3.20032 -154.1864,-7.87384 -343.71843,-3.20032 -189.53202,4.67353 -256.45762,23.36606 -531.9601,5.64522 C 242.65315,105.70127 100.87933,106.57057 1,120.12306 Z"
+           id="path22"
+           fill="url(#radialGradient-1)"
+           transform="matrix(-1,0,0,1,1303,0)"
+           style="fill:url(#radialGradient862);fill-opacity:1" />
+      </g>
     </g>
   </g>
 </svg>

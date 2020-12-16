@@ -1,24 +1,107 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1300px" height="499px" viewBox="0 0 1300 499" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
-    <title>wave_background</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.357923,1.000000),rotate(-160.534454),translate(-1.167079,-1.101332)" id="radialGradient-1">
-            <stop stop-color="#0069FF" offset="0%"></stop>
-            <stop stop-color="#0269FD" offset="2.91250472%"></stop>
-            <stop stop-color="#0369FC" offset="4.5053357%"></stop>
-            <stop stop-color="#0468FB" offset="6.00516035%"></stop>
-            <stop stop-color="#1165EF" offset="25.4821693%"></stop>
-            <stop stop-color="#4457C0" offset="100%"></stop>
-        </radialGradient>
-    </defs>
-    <g id="Ressource" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="wave_background">
-            <g id="Group-4">
-                <path d="M0,1.89326617e-29 L1300,-2.84217094e-14 C1299.84369,99.0658466 1299.84369,259.045733 1300,479.93966 C939.379367,522.288692 978.893507,439.694844 650,450.952014 C321.106493,462.209185 306.589562,511.200484 0,450.952014 C1,327.508342 1,177.191004 0,1.89326617e-29 Z" id="Wave" fill="#C4C4C4" opacity="0.15"></path>
-                <path d="M1.00076864,0 L925.701255,0 L1302,0 C1302,223.960943 1302,366.849893 1302,428.66685 C1221.6052,416.744841 1147.81368,399.334739 958.281774,416.744841 C768.749863,434.154944 701.824308,503.789515 426.321989,437.77475 C242.653776,393.764907 100.880036,397.003272 1.00076864,447.489845 L1.00076864,0 Z" id="Wave" fill="url(#radialGradient-1)" transform="translate(651.500384, 232.828869) scale(-1, 1) translate(-651.500384, -232.828869) "></path>
-            </g>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1300px"
+   height="499px"
+   viewBox="0 0 1300 499"
+   version="1.1"
+   id="svg3071"
+   sodipodi:docname="wave-hero-background.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata3075">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     id="namedview3073"
+     showgrid="false"
+     inkscape:zoom="0.64564288"
+     inkscape:cx="409.24298"
+     inkscape:cy="440.68773"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3071" />
+  <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title3054">wave_background</title>
+  <desc
+     id="desc3056">Created with Sketch.</desc>
+  <defs
+     id="defs3063">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4027">
+      <stop
+         style="stop-color:#4c4fff;stop-opacity:0.99840009"
+         offset="0"
+         id="stop4023" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.96203971"
+         offset="1"
+         id="stop4025" />
+    </linearGradient>
+   
+    
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4027"
+       id="radialGradient4031"
+       cx="-6548.9341"
+       cy="647.27679"
+       fx="-6548.9341"
+       fy="647.27679"
+       r="650"
+       gradientTransform="matrix(0.12270902,1.3264473,-4.324465,0.39982211,4242.3266,8640.0763)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="Ressource"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="wave_background">
+      <g
+         id="Group-4">
+        <path
+           d="M0,1.89326617e-29 L1300,-2.84217094e-14 C1299.84369,99.0658466 1299.84369,259.045733 1300,479.93966 C939.379367,522.288692 978.893507,439.694844 650,450.952014 C321.106493,462.209185 306.589562,511.200484 0,450.952014 C1,327.508342 1,177.191004 0,1.89326617e-29 Z"
+           id="Wave"
+           fill="#C4C4C4"
+           opacity="0.15"
+           style="fill:url(#radialGradient4031);fill-opacity:1;opacity:1" />
+        <path
+           d="M 1.0007686,0 H 925.70125 1302 c 0,223.96094 0,366.84989 0,428.66685 -80.3948,-11.92201 -154.1863,-29.33211 -343.71823,-11.92201 -189.53191,17.4101 -256.45746,87.04467 -531.95978,21.02991 C 242.65378,393.76491 100.88004,397.00327 1.0007686,447.48984 Z"
+           id="path3066"
+           fill="url(#radialGradient-1)"
+           transform="matrix(-1,0,0,1,1303.0008,0)"
+           style="mix-blend-mode:difference;fill:none;fill-opacity:1" />
+      </g>
     </g>
+  </g>
 </svg>

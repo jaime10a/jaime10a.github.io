@@ -16,7 +16,7 @@
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->
+    <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
@@ -30,19 +30,19 @@
 	        "images/bg/bg1.jpg",
 	        "images/bg/bg2.jpg",
 	        "images/bg/bg3.jpg"
-	    ], {duration: 5000, fade: 500, centeredY: true });
+	    ], {duration: 5000, fade: 500});
 
 		$("#mapwrapper").gMap({ controls: false,
          	scrollwheel: false,
-         	markers: [{
+         	markers: [{ 	
               	latitude:40.7566,
 				longitude: -73.9863,
           	icon: { image: "images/marker.png",
               	iconsize: [44,44],
           		iconanchor: [12,46],
           		infowindowanchor: [12, 0] } }],
-          	icon: {
-              	image: "images/marker.png",
+          	icon: { 
+              	image: "images/marker.png", 
              	iconsize: [26, 46],
               	iconanchor: [12, 46],
               	infowindowanchor: [12, 0] },
@@ -54,31 +54,29 @@
 </head><!--/head-->
 <body>
 <div id="preloader"></div>
-    <header class="navbar navbar-inverse navbar-fixed-top " role="banner">
+    <header class="navbar navbar-inverse navbar-fixed-top opaqued" role="banner">
+    <div id="search-wrapper">
+        <div class="container">
+            <input id="search-box" placeholder="Search">
+        </div>
+    </div>
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                 <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> IMPACT</h1></a>
+                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> IMPACT</h1></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="project-item.html">Project Single</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li class="active"><a href="404.html">404</a></li>
-                        </ul>
-                    </li>
+                    <li class="active"><a href="index.html">Home</a></li>                    
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>                    
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
                 </ul>
             </div>
@@ -110,17 +108,16 @@
     <div id="content-wrapper">
         <section id="services" class="white">
             <div class="container">
-            <div class="gap"></div>
+            <div class="gap"></div> 
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center gap fade-down section-heading">
                             <h2 class="main-title">Stuff We Do</h2>
                             <hr>
                             <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                        </div>
+                        </div>                
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="service-block">
@@ -194,19 +191,17 @@
                 </div><!--/.row-->
             </div>
             <div class="gap"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Our Skills</h2>
-                            <hr>
-                            <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center gap fade-down section-heading">
+                        <h2 class="main-title">Our Skills</h2>
+                        <hr>
+                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+                    </div>               
                 </div>
             </div>
-            <div class="container">
-            <div class="row">
+            <div class="container">     
+            <div class="row">            
 	                <div class="col-md-3">
 	                    <div class="tile-progress tile-red bounce-in">
 	                        <div class="tile-header">
@@ -277,10 +272,10 @@
         </section>
 
 
-		<section id="single-quote" class="divider-section">
+		<section id="single-quote" class="divider-section"> 	            	        
 	            <div class="container">
-	            	<div class="gap"></div>
-	                <div class="row">
+	            	<div class="gap"></div> 
+	                <div class="row">                        
 	                    <div class='col-md-offset-2 col-md-8 fade-up'>
 	                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
 	                            <div class="carousel-inner">
@@ -296,9 +291,9 @@
 	                                            </div>
 	                                        </div>
 	                                    </blockquote>
-	                                </div>
-	                            </div>
-	                        </div>
+	                                </div>	                                
+	                            </div>                                     
+	                        </div> 
 	                    </div>
 	                </div>
 	                <div class="gap"></div>
@@ -314,7 +309,7 @@
 	                        <h2 class="main-title">A Little About Us</h2>
 	                        <hr>
 	                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-	                    </div>
+	                    </div>                
 	                </div>
 	            </div>
 	            <div class="row">
@@ -368,21 +363,16 @@
 	                <h2 class="main-title">Meet The Team</h2>
 	                <hr>
 	                <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-	            </div>
+	            </div> 
 	            <div class="gap"></div>
 
 	            <div id="meet-the-team" class="row">
 	                <div class="col-md-3 col-xs-6">
 	                    <div class="center team-member">
-                            <div class="team-image">
-                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team01.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
+	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team01.jpg" alt="">
 	                        <div class="team-content fade-up">
 	                            <h5>Daniel Jones<small class="role muted">Web Design</small></h5>
-	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+	                            <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use.</p>
 	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
 	                        </div>
 	                    </div>
@@ -390,53 +380,38 @@
 
 	                <div class="col-md-3 col-xs-6">
 	                    <div class="center team-member">
-                            <div class="team-image">
-                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team02.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
+	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team02.jpg" alt="">
 	                        <div class="team-content fade-up">
 	                            <h5>John Smith<small class="role muted">Marketing Director</small></h5>
-	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+	                            <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use.</p>
 	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
 	                        </div>
 	                    </div>
-	                </div>
+	                </div>        
 	                <div class="col-md-3 col-xs-6">
 	                    <div class="center team-member">
-                            <div class="team-image">
-                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team03.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
+	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team03.jpg" alt="">
 	                        <div class="team-content fade-up">
 	                            <h5>Dave Gorman<small class="role muted">Web Design</small></h5>
-	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+	                            <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use.</p>
 	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
 	                        </div>
 	                    </div>
-	                </div>
+	                </div>        
 	                <div class="col-md-3 col-xs-6">
 	                    <div class="center team-member">
-                            <div class="team-image">
-    	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team04.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
+	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team04.jpg" alt="">
 	                        <div class="team-content fade-up">
 	                            <h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
-	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+	                            <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use.</p>
 	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
 	                        </div>
 	                    </div>
 	                </div>
 	            </div><!--/#meet-the-team-->
-	            <div class="gap"></div>
-	            <div class="gap"></div>
-            </div>
+	            <div class="gap"></div>  
+	            <div class="gap"></div>   
+            </div>      
         </section>
 
         <section id="stats" class="divider-section">
@@ -473,107 +448,107 @@
                     </div>
                 </div>
             </div>
-            <div class="gap"></div>
+            <div class="gap"></div> 
         </section>
 
         <section id="portfolio" class="white">
        		<div class="container">
-	        	<div class="gap"></div>
+	        	<div class="gap"></div> 
 		        	<div class="center gap fade-down section-heading">
 		                <h2 class="main-title">Examples Of Excellence</h2>
 		                <hr>
 		                <p>She evil face fine calm have now. Separate screened he outweigh of distance landlord.</p>
-		            </div>
-<ul class="portfolio-filter fade-down center">
-                        <li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".apps">Apps</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".nature">Nature</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".design">Design</a></li>
-                    </ul><!--/#portfolio-filter-->
+		            </div> 
+	                <ul class="portfolio-filter fade-down center">
+	                    <li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
+	                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".apps">Apps</a></li>
+	                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".nature">Nature</a></li>
+	                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".design">Design</a></li>
+	                </ul><!--/#portfolio-filter-->
 
-                    <ul class="portfolio-items col-3 isotope fade-up">
-                        <li class="portfolio-item apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio01.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla nature isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio02.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item bootstrap design isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio03.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla design apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio04.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio05.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item wordpress nature isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio06.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla design apps isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio07.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item joomla nature isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio08.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        <li class="portfolio-item wordpress design isotope-item">
-                            <div class="item-inner">
-                                <img src="images/portfolio/folio09.jpg" alt="">
-                                <h5>Portfolio Project</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio09.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                    </ul>
+	                <ul class="portfolio-items col-3 isotope fade-up">
+	                    <li class="portfolio-item apps isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio01.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>             
+	                            </div>           
+	                        </div>           
+	                    </li><!--/.portfolio-item-->
+	                    <li class="portfolio-item joomla nature isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio02.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>              
+	                            </div>           
+	                        </div>           
+	                    </li><!--/.portfolio-item-->
+	                    <li class="portfolio-item bootstrap design isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio03.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>        
+	                            </div>           
+	                        </div>           
+	                    </li><!--/.portfolio-item-->
+	                    <li class="portfolio-item joomla design apps isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio04.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>          
+	                            </div>           
+	                        </div>           
+	                    </li><!--/.portfolio-item-->
+	                    <li class="portfolio-item joomla apps isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio05.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>          
+	                            </div>    
+	                        </div>       
+	                    </li><!--/.portfolio-item-->
+	                    <li class="portfolio-item wordpress nature isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio06.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>           
+	                            </div>           
+	                        </div>           
+	                    </li><!--/.portfolio-item-->
+	                    <li class="portfolio-item joomla design apps isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio07.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>          
+	                            </div>           
+	                        </div>           
+	                    </li><!--/.portfolio-item-->
+	                    <li class="portfolio-item joomla nature isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio08.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>          
+	                            </div>    
+	                        </div>       
+	                    </li><!--/.portfolio-item-->
+	                    <li class="portfolio-item wordpress design isotope-item">
+	                        <div class="item-inner">
+	                            <img src="images/portfolio/folio09.jpg" alt="">
+	                            <h5>Portfolio Project</h5>
+	                            <div class="overlay">
+	                                <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio09.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>           
+	                            </div>           
+	                        </div>           
+	                    </li><!--/.portfolio-item-->
+	                </ul>
                 </div>
             </section>
 
@@ -586,7 +561,7 @@
                             <hr>
                             <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
                             <div class="gap"></div>
-                        </div>
+                        </div>                         
 	                    <div class='col-md-offset-2 col-md-8 fade-up'>
 	                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
 	                            <!-- Bottom Carousel Indicators -->
@@ -594,9 +569,9 @@
 	                                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
 	                                <li data-target="#quote-carousel" data-slide-to="1"></li>
 	                                <li data-target="#quote-carousel" data-slide-to="2"></li>
-	                            </ol>
+	                            </ol>                                
 	                            <!-- Carousel Slides / Quotes -->
-	                            <div class="carousel-inner">
+	                            <div class="carousel-inner">                                
 	                              <!-- Quote 1 -->
 	                                <div class="item active">
 	                                    <blockquote>
@@ -639,8 +614,8 @@
 	                                        </div>
 	                                    </blockquote>
 	                                </div>
-	                            </div>
-	                        </div>
+	                            </div>                                     
+	                        </div> 
 	                    </div>
 	                </div>
 	                <div class="gap"></div>
@@ -654,7 +629,7 @@
                         <h2 class="main-title">From The Blog</h2>
                         <hr>
                         <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                    </div>
+                    </div>  
                     <div class="gap"></div>
                     <div class="row">
 	                    <div class="col-md-4">
@@ -662,7 +637,7 @@
 	                            <div class="post-img-content">
 	                                <img src="images/portfolio/folio02.jpg" class="img-responsive" />
 	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
+	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>          
 	                                </div>
 	                            </div>
 	                            <div class="content">
@@ -686,7 +661,7 @@
 	                            <div class="post-img-content">
 	                                <img src="images/portfolio/folio06.jpg" class="img-responsive" />
 	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
+	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>          
 	                                </div>
 	                            </div>
 	                            <div class="content">
@@ -710,7 +685,7 @@
 	                            <div class="post-img-content">
 	                                <img src="images/portfolio/folio11.jpg" class="img-responsive" />
 	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
+	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>          
 	                                </div>
 	                            </div>
 	                            <div class="content">
@@ -729,7 +704,7 @@
 	                            </div>
 	                        </div>
 	                    </div>
-                    </div>
+                    </div> 
                     <div class="gap"></div>
                     <div class="row">
 	                    <div class="col-md-4">
@@ -737,7 +712,7 @@
 	                            <div class="post-img-content">
 	                                <img src="images/portfolio/folio02.jpg" class="img-responsive" />
 	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
+	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>          
 	                                </div>
 	                            </div>
 	                            <div class="content">
@@ -761,7 +736,7 @@
 	                            <div class="post-img-content">
 	                                <img src="images/portfolio/folio06.jpg" class="img-responsive" />
 	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
+	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>          
 	                                </div>
 	                            </div>
 	                            <div class="content">
@@ -785,7 +760,7 @@
 	                            <div class="post-img-content">
 	                                <img src="images/portfolio/folio11.jpg" class="img-responsive" />
 	                                <div class="overlay">
-	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
+	                                    <a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>          
 	                                </div>
 	                            </div>
 	                            <div class="content">
@@ -804,7 +779,8 @@
 	                            </div>
 	                        </div>
 	                    </div>
-                    </div>
+                    </div> 
+                    <div class="gap"></div>                              
                 </div>
        		</section>
 
@@ -814,7 +790,7 @@
                         <h2 class="main-title">So, How Much?</h2>
                         <hr>
                         <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                    </div>
+                    </div>  
                     <div class="gap"></div>
                     <div id="pricing-table" class="row">
                         <div class="col-md-3 col-xs-6 flip-in">
@@ -942,7 +918,7 @@
                             </ul>
                         </div><!--/.col-md-3-->
                     </div>
-                    <div class="gap"></div>
+                    <div class="gap"></div> 
                 </div>
             </section>
 
@@ -957,7 +933,7 @@
                         <h2 class="main-title">Get In Touch</h2>
                         <hr>
                         <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                    </div>
+                    </div>    
                     <div class="gap"></div>
                     <div class="row">
                         <div class="col-md-4 fade-up">
@@ -970,7 +946,7 @@
                                 <span class="icon icon-facebook"></span> <a href="#">Infinity Agency</a> <br/>
                             </p>
                         </div><!-- col -->
-
+                    
                         <div class="col-md-8 fade-up">
                             <h3>Drop Us A Message</h3>
                             <br>
@@ -984,8 +960,8 @@
                                 <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
                             </form>
                         </div><!-- col -->
-                    </div><!-- row -->
-                    <div class="gap"></div>
+                    </div><!-- row -->  
+                    <div class="gap"></div>         
                 </div>
             </section>
         </div>
@@ -1032,7 +1008,7 @@
                                     <small class="muted">Posted 14 April 2014</small>
                                 </div>
                             </div>
-                        </div>
+                        </div>  
                     </div><!--/.col-md-3-->
 
                     <div class="col-md-3 col-sm-6">
@@ -1051,10 +1027,10 @@
         <footer id="footer" class="">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
-                        &copy; 2019 Your Site Name. All Rights Reserved. <a href="https://templatemag.com/bootstrap-templates/">Bootstrap templates</a> by TemplateMag.
+                    <div class="col-sm-6">
+                        &copy; 2019 <a target="_blank" href="http://www.distinctivethemes.com" title="Premium Themes and Templates">Distinctive Themes</a>. All Rights Reserved.
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <ul class="pull-right">
                             <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
                         </ul>
@@ -1067,8 +1043,8 @@
 
     <script src="js/plugins.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>   
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script> 
     <script src="js/init.js"></script>
 </body>
 </html>
